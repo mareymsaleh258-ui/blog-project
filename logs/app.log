@@ -1,0 +1,529 @@
+2026-05-02 05:36:04 | INFO | GET /docs | status: 200 | duration: 0.0ms
+2026-05-02 05:36:05 | INFO | GET /openapi.json | status: 200 | duration: 69.68ms
+2026-05-02 05:38:48 | INFO | GET /docs | status: 200 | duration: 0.93ms
+2026-05-02 05:38:48 | INFO | GET /openapi.json | status: 200 | duration: 98.92ms
+2026-05-02 06:50:46 | INFO | POST /auth/register | status: 200 | duration: 326.39ms
+2026-05-02 06:50:46 | INFO | POST /auth/register | status: 200 | duration: 261.75ms
+2026-05-02 06:50:46 | INFO | POST /auth/register | status: 400 | duration: 2.5ms
+2026-05-02 06:50:46 | INFO | POST /auth/register | status: 200 | duration: 265.45ms
+2026-05-02 06:50:47 | INFO | Successful login for user: login@test.com
+2026-05-02 06:50:47 | INFO | POST /auth/login | status: 200 | duration: 262.33ms
+2026-05-02 06:50:47 | WARNING | Failed login attempt for email: login@test.com
+2026-05-02 06:50:47 | INFO | POST /auth/login | status: 401 | duration: 3.08ms
+2026-05-02 06:50:47 | INFO | POST /auth/register | status: 200 | duration: 281.2ms
+2026-05-02 06:50:47 | INFO | Successful login for user: comment1@test.com
+2026-05-02 06:50:47 | INFO | POST /auth/login | status: 200 | duration: 255.3ms
+2026-05-02 06:50:49 | INFO | Post created | id=1 | author_id=1
+2026-05-02 06:50:49 | INFO | POST /posts/ | status: 200 | duration: 2062.34ms
+2026-05-02 06:50:49 | INFO | Comment created | id=1 | user_id=1 | post_id=1
+2026-05-02 06:50:49 | INFO | POST /comments/ | status: 200 | duration: 35.99ms
+2026-05-02 06:50:50 | INFO | POST /auth/register | status: 200 | duration: 257.41ms
+2026-05-02 06:50:50 | INFO | Successful login for user: comment2@test.com
+2026-05-02 06:50:50 | INFO | POST /auth/login | status: 200 | duration: 252.83ms
+2026-05-02 06:50:50 | INFO | Post created | id=1 | author_id=1
+2026-05-02 06:50:50 | INFO | POST /posts/ | status: 200 | duration: 9.02ms
+2026-05-02 06:50:50 | INFO | Comment created | id=1 | user_id=1 | post_id=1
+2026-05-02 06:50:50 | INFO | POST /comments/ | status: 200 | duration: 11.9ms
+2026-05-02 06:50:50 | INFO | GET /comments/post/1 | status: 200 | duration: 9.17ms
+2026-05-02 06:50:50 | INFO | POST /auth/register | status: 200 | duration: 260.23ms
+2026-05-02 06:50:51 | INFO | Successful login for user: comment3@test.com
+2026-05-02 06:50:51 | INFO | POST /auth/login | status: 200 | duration: 252.06ms
+2026-05-02 06:50:51 | INFO | Post created | id=1 | author_id=1
+2026-05-02 06:50:51 | INFO | POST /posts/ | status: 200 | duration: 10.85ms
+2026-05-02 06:50:51 | INFO | Comment created | id=1 | user_id=1 | post_id=1
+2026-05-02 06:50:51 | INFO | POST /comments/ | status: 200 | duration: 9.64ms
+2026-05-02 06:50:51 | INFO | Comment created | id=2 | user_id=1 | post_id=1
+2026-05-02 06:50:51 | INFO | POST /comments/ | status: 200 | duration: 17.02ms
+2026-05-02 06:50:51 | INFO | POST /auth/register | status: 200 | duration: 262.21ms
+2026-05-02 06:50:51 | INFO | Successful login for user: comment4@test.com
+2026-05-02 06:50:51 | INFO | POST /auth/login | status: 200 | duration: 256.9ms
+2026-05-02 06:50:51 | INFO | Post created | id=1 | author_id=1
+2026-05-02 06:50:51 | INFO | POST /posts/ | status: 200 | duration: 10.22ms
+2026-05-02 06:50:51 | INFO | Comment created | id=1 | user_id=1 | post_id=1
+2026-05-02 06:50:51 | INFO | POST /comments/ | status: 200 | duration: 11.66ms
+2026-05-02 06:50:51 | INFO | Comment updated | id=1 | user_id=1
+2026-05-02 06:50:51 | INFO | PUT /comments/1 | status: 200 | duration: 20.35ms
+2026-05-02 06:50:52 | INFO | POST /auth/register | status: 200 | duration: 266.09ms
+2026-05-02 06:50:52 | INFO | Successful login for user: comment5@test.com
+2026-05-02 06:50:52 | INFO | POST /auth/login | status: 200 | duration: 254.38ms
+2026-05-02 06:50:52 | INFO | Post created | id=1 | author_id=1
+2026-05-02 06:50:52 | INFO | POST /posts/ | status: 200 | duration: 9.65ms
+2026-05-02 06:50:52 | INFO | Comment created | id=1 | user_id=1 | post_id=1
+2026-05-02 06:50:52 | INFO | POST /comments/ | status: 200 | duration: 9.59ms
+2026-05-02 06:50:52 | INFO | Comment deleted | id=1 | user_id=1
+2026-05-02 06:50:52 | INFO | DELETE /comments/1 | status: 200 | duration: 10.65ms
+2026-05-02 06:50:52 | INFO | POST /comments/ | status: 401 | duration: 3.0ms
+2026-05-02 06:50:52 | INFO | POST /auth/register | status: 200 | duration: 260.88ms
+2026-05-02 06:50:53 | INFO | Successful login for user: postauthor@test.com
+2026-05-02 06:50:53 | INFO | POST /auth/login | status: 200 | duration: 255.06ms
+2026-05-02 06:50:53 | INFO | Post created | id=1 | author_id=1
+2026-05-02 06:50:53 | INFO | POST /posts/ | status: 200 | duration: 11.98ms
+2026-05-02 06:50:53 | INFO | GET /posts/ | status: 200 | duration: 6.98ms
+2026-05-02 06:50:53 | INFO | POST /auth/register | status: 200 | duration: 276.39ms
+2026-05-02 06:50:53 | INFO | Successful login for user: postauthor2@test.com
+2026-05-02 06:50:53 | INFO | POST /auth/login | status: 200 | duration: 249.31ms
+2026-05-02 06:50:53 | INFO | Post created | id=1 | author_id=1
+2026-05-02 06:50:53 | INFO | POST /posts/ | status: 200 | duration: 9.63ms
+2026-05-02 06:50:53 | INFO | GET /posts/1 | status: 200 | duration: 4.21ms
+2026-05-02 06:50:53 | INFO | POST /posts/ | status: 401 | duration: 1.0ms
+2026-05-02 06:50:54 | INFO | POST /auth/register | status: 200 | duration: 263.55ms
+2026-05-02 06:50:54 | INFO | Successful login for user: postauthor3@test.com
+2026-05-02 06:50:54 | INFO | POST /auth/login | status: 200 | duration: 254.06ms
+2026-05-02 06:50:54 | INFO | Post created | id=1 | author_id=1
+2026-05-02 06:50:54 | INFO | POST /posts/ | status: 200 | duration: 12.44ms
+2026-05-02 06:50:54 | INFO | Post updated | id=1 | user_id=1
+2026-05-02 06:50:54 | INFO | PUT /posts/1 | status: 200 | duration: 9.89ms
+2026-05-02 06:50:54 | INFO | POST /auth/register | status: 200 | duration: 264.65ms
+2026-05-02 06:50:55 | INFO | Successful login for user: postauthor4@test.com
+2026-05-02 06:50:55 | INFO | POST /auth/login | status: 200 | duration: 259.83ms
+2026-05-02 06:50:55 | INFO | Post created | id=1 | author_id=1
+2026-05-02 06:50:55 | INFO | POST /posts/ | status: 200 | duration: 11.12ms
+2026-05-02 06:50:55 | INFO | Post deleted | id=1 | user_id=1
+2026-05-02 06:50:55 | INFO | DELETE /posts/1 | status: 200 | duration: 13.48ms
+2026-05-02 06:50:55 | INFO | POST /auth/register | status: 200 | duration: 259.73ms
+2026-05-02 06:50:55 | INFO | GET /users/ | status: 200 | duration: 14.3ms
+2026-05-02 06:50:55 | INFO | POST /auth/register | status: 200 | duration: 262.95ms
+2026-05-02 06:50:55 | INFO | GET /users/1 | status: 200 | duration: 3.26ms
+2026-05-02 06:50:55 | INFO | GET /users/9999 | status: 404 | duration: 2.07ms
+2026-05-02 06:50:56 | INFO | POST /auth/register | status: 200 | duration: 264.02ms
+2026-05-02 06:50:56 | INFO | POST /auth/register | status: 400 | duration: 3.32ms
+2026-05-02 06:50:56 | INFO | POST /auth/register | status: 200 | duration: 260.03ms
+2026-05-02 06:50:56 | INFO | Successful login for user: test5@test.com
+2026-05-02 06:50:56 | INFO | POST /auth/login | status: 200 | duration: 257.28ms
+2026-05-02 06:50:56 | INFO | PUT /users/1 | status: 200 | duration: 11.98ms
+2026-05-02 06:50:57 | INFO | POST /auth/register | status: 200 | duration: 263.84ms
+2026-05-02 06:50:57 | INFO | Successful login for user: admin@test.com
+2026-05-02 06:50:57 | INFO | POST /auth/login | status: 200 | duration: 252.86ms
+2026-05-02 06:50:57 | INFO | POST /auth/register | status: 200 | duration: 257.97ms
+2026-05-02 06:50:57 | INFO | DELETE /users/2 | status: 200 | duration: 12.6ms
+2026-05-02 07:07:40 | INFO | POST /auth/register | status: 200 | duration: 330.43ms
+2026-05-02 07:07:40 | INFO | Successful login for user: postauthor@test.com
+2026-05-02 07:07:40 | INFO | POST /auth/login | status: 200 | duration: 294.42ms
+2026-05-02 07:07:42 | INFO | Post created | id=1 | author_id=1
+2026-05-02 07:07:42 | INFO | POST /posts/ | status: 200 | duration: 2053.2ms
+2026-05-02 07:07:42 | INFO | GET /posts/ | status: 200 | duration: 7.75ms
+2026-05-02 07:07:42 | INFO | POST /auth/register | status: 200 | duration: 272.64ms
+2026-05-02 07:07:43 | INFO | Successful login for user: postauthor2@test.com
+2026-05-02 07:07:43 | INFO | POST /auth/login | status: 200 | duration: 262.79ms
+2026-05-02 07:07:43 | INFO | Post created | id=1 | author_id=1
+2026-05-02 07:07:43 | INFO | POST /posts/ | status: 200 | duration: 11.02ms
+2026-05-02 07:07:43 | INFO | GET /posts/1 | status: 200 | duration: 4.05ms
+2026-05-02 07:07:43 | INFO | POST /posts/ | status: 401 | duration: 2.43ms
+2026-05-02 07:07:43 | INFO | POST /auth/register | status: 200 | duration: 277.26ms
+2026-05-02 07:07:43 | INFO | Successful login for user: postauthor3@test.com
+2026-05-02 07:07:43 | INFO | POST /auth/login | status: 200 | duration: 274.11ms
+2026-05-02 07:07:43 | INFO | Post created | id=1 | author_id=1
+2026-05-02 07:07:43 | INFO | POST /posts/ | status: 200 | duration: 11.89ms
+2026-05-02 07:07:43 | INFO | Post updated | id=1 | user_id=1
+2026-05-02 07:07:43 | INFO | PUT /posts/1 | status: 200 | duration: 13.36ms
+2026-05-02 07:07:44 | INFO | POST /auth/register | status: 200 | duration: 274.97ms
+2026-05-02 07:07:44 | INFO | Successful login for user: postauthor4@test.com
+2026-05-02 07:07:44 | INFO | POST /auth/login | status: 200 | duration: 269.86ms
+2026-05-02 07:07:44 | INFO | Post created | id=1 | author_id=1
+2026-05-02 07:07:44 | INFO | POST /posts/ | status: 200 | duration: 11.2ms
+2026-05-02 07:07:44 | INFO | Post deleted | id=1 | user_id=1
+2026-05-02 07:07:44 | INFO | DELETE /posts/1 | status: 200 | duration: 13.95ms
+2026-05-02 07:07:44 | WARNING | Failed login attempt for email: reader@test.com
+2026-05-02 07:07:44 | INFO | POST /auth/login | status: 401 | duration: 3.06ms
+2026-05-02 07:09:00 | INFO | POST /auth/register | status: 200 | duration: 329.45ms
+2026-05-02 07:09:00 | INFO | Successful login for user: postauthor@test.com
+2026-05-02 07:09:00 | INFO | POST /auth/login | status: 200 | duration: 269.35ms
+2026-05-02 07:09:02 | INFO | Post created | id=1 | author_id=1
+2026-05-02 07:09:02 | INFO | POST /posts/ | status: 200 | duration: 2046.6ms
+2026-05-02 07:09:03 | INFO | GET /posts/ | status: 200 | duration: 6.85ms
+2026-05-02 07:09:03 | INFO | POST /auth/register | status: 200 | duration: 265.43ms
+2026-05-02 07:09:03 | INFO | Successful login for user: postauthor2@test.com
+2026-05-02 07:09:03 | INFO | POST /auth/login | status: 200 | duration: 263.12ms
+2026-05-02 07:09:03 | INFO | Post created | id=1 | author_id=1
+2026-05-02 07:09:03 | INFO | POST /posts/ | status: 200 | duration: 11.66ms
+2026-05-02 07:09:03 | INFO | GET /posts/1 | status: 200 | duration: 3.99ms
+2026-05-02 07:09:03 | INFO | POST /posts/ | status: 401 | duration: 3.0ms
+2026-05-02 07:09:04 | INFO | POST /auth/register | status: 200 | duration: 269.0ms
+2026-05-02 07:09:04 | INFO | Successful login for user: postauthor3@test.com
+2026-05-02 07:09:04 | INFO | POST /auth/login | status: 200 | duration: 257.19ms
+2026-05-02 07:09:04 | INFO | Post created | id=1 | author_id=1
+2026-05-02 07:09:04 | INFO | POST /posts/ | status: 200 | duration: 10.83ms
+2026-05-02 07:09:04 | INFO | Post updated | id=1 | user_id=1
+2026-05-02 07:09:04 | INFO | PUT /posts/1 | status: 200 | duration: 11.97ms
+2026-05-02 07:09:04 | INFO | POST /auth/register | status: 200 | duration: 268.43ms
+2026-05-02 07:09:04 | INFO | Successful login for user: postauthor4@test.com
+2026-05-02 07:09:04 | INFO | POST /auth/login | status: 200 | duration: 250.26ms
+2026-05-02 07:09:04 | INFO | Post created | id=1 | author_id=1
+2026-05-02 07:09:04 | INFO | POST /posts/ | status: 200 | duration: 12.37ms
+2026-05-02 07:09:04 | INFO | Post deleted | id=1 | user_id=1
+2026-05-02 07:09:04 | INFO | DELETE /posts/1 | status: 200 | duration: 12.33ms
+2026-05-02 07:09:05 | INFO | POST /auth/register | status: 200 | duration: 272.19ms
+2026-05-02 07:09:05 | INFO | Successful login for user: reader@test.com
+2026-05-02 07:09:05 | INFO | POST /auth/login | status: 200 | duration: 248.35ms
+2026-05-02 07:09:05 | INFO | POST /posts/ | status: 403 | duration: 3.12ms
+2026-05-02 07:09:30 | INFO | POST /auth/register | status: 200 | duration: 299.05ms
+2026-05-02 07:09:30 | INFO | POST /auth/register | status: 200 | duration: 278.53ms
+2026-05-02 07:09:30 | INFO | POST /auth/register | status: 400 | duration: 2.96ms
+2026-05-02 07:09:30 | INFO | POST /auth/register | status: 200 | duration: 258.91ms
+2026-05-02 07:09:31 | INFO | Successful login for user: login@test.com
+2026-05-02 07:09:31 | INFO | POST /auth/login | status: 200 | duration: 264.5ms
+2026-05-02 07:09:31 | WARNING | Failed login attempt for email: login@test.com
+2026-05-02 07:09:31 | INFO | POST /auth/login | status: 401 | duration: 3.28ms
+2026-05-02 07:09:31 | INFO | POST /auth/register | status: 200 | duration: 269.09ms
+2026-05-02 07:09:31 | INFO | Successful login for user: comment1@test.com
+2026-05-02 07:09:31 | INFO | POST /auth/login | status: 200 | duration: 247.52ms
+2026-05-02 07:09:33 | INFO | Post created | id=1 | author_id=1
+2026-05-02 07:09:33 | INFO | POST /posts/ | status: 200 | duration: 2037.98ms
+2026-05-02 07:09:33 | INFO | Comment created | id=1 | user_id=1 | post_id=1
+2026-05-02 07:09:33 | INFO | POST /comments/ | status: 200 | duration: 14.96ms
+2026-05-02 07:09:34 | INFO | POST /auth/register | status: 200 | duration: 250.9ms
+2026-05-02 07:09:34 | INFO | Successful login for user: comment2@test.com
+2026-05-02 07:09:34 | INFO | POST /auth/login | status: 200 | duration: 249.07ms
+2026-05-02 07:09:34 | INFO | Post created | id=1 | author_id=1
+2026-05-02 07:09:34 | INFO | POST /posts/ | status: 200 | duration: 11.32ms
+2026-05-02 07:09:34 | INFO | Comment created | id=1 | user_id=1 | post_id=1
+2026-05-02 07:09:34 | INFO | POST /comments/ | status: 200 | duration: 9.97ms
+2026-05-02 07:09:34 | INFO | GET /comments/post/1 | status: 200 | duration: 9.0ms
+2026-05-02 07:09:34 | INFO | POST /auth/register | status: 200 | duration: 266.2ms
+2026-05-02 07:09:35 | INFO | Successful login for user: comment3@test.com
+2026-05-02 07:09:35 | INFO | POST /auth/login | status: 200 | duration: 279.86ms
+2026-05-02 07:09:35 | INFO | Post created | id=1 | author_id=1
+2026-05-02 07:09:35 | INFO | POST /posts/ | status: 200 | duration: 11.34ms
+2026-05-02 07:09:35 | INFO | Comment created | id=1 | user_id=1 | post_id=1
+2026-05-02 07:09:35 | INFO | POST /comments/ | status: 200 | duration: 10.54ms
+2026-05-02 07:09:35 | INFO | Comment created | id=2 | user_id=1 | post_id=1
+2026-05-02 07:09:35 | INFO | POST /comments/ | status: 200 | duration: 8.87ms
+2026-05-02 07:09:35 | INFO | POST /auth/register | status: 200 | duration: 284.44ms
+2026-05-02 07:09:35 | INFO | Successful login for user: comment4@test.com
+2026-05-02 07:09:35 | INFO | POST /auth/login | status: 200 | duration: 269.34ms
+2026-05-02 07:09:35 | INFO | Post created | id=1 | author_id=1
+2026-05-02 07:09:35 | INFO | POST /posts/ | status: 200 | duration: 9.82ms
+2026-05-02 07:09:35 | INFO | Comment created | id=1 | user_id=1 | post_id=1
+2026-05-02 07:09:35 | INFO | POST /comments/ | status: 200 | duration: 9.05ms
+2026-05-02 07:09:35 | INFO | Comment updated | id=1 | user_id=1
+2026-05-02 07:09:35 | INFO | PUT /comments/1 | status: 200 | duration: 15.01ms
+2026-05-02 07:09:36 | INFO | POST /auth/register | status: 200 | duration: 272.71ms
+2026-05-02 07:09:36 | INFO | Successful login for user: comment5@test.com
+2026-05-02 07:09:36 | INFO | POST /auth/login | status: 200 | duration: 247.91ms
+2026-05-02 07:09:36 | INFO | Post created | id=1 | author_id=1
+2026-05-02 07:09:36 | INFO | POST /posts/ | status: 200 | duration: 9.51ms
+2026-05-02 07:09:36 | INFO | Comment created | id=1 | user_id=1 | post_id=1
+2026-05-02 07:09:36 | INFO | POST /comments/ | status: 200 | duration: 9.75ms
+2026-05-02 07:09:36 | INFO | Comment deleted | id=1 | user_id=1
+2026-05-02 07:09:36 | INFO | DELETE /comments/1 | status: 200 | duration: 12.41ms
+2026-05-02 07:09:36 | INFO | POST /comments/ | status: 401 | duration: 2.02ms
+2026-05-02 07:09:36 | INFO | POST /auth/register | status: 200 | duration: 267.98ms
+2026-05-02 07:09:37 | INFO | Successful login for user: postauthor@test.com
+2026-05-02 07:09:37 | INFO | POST /auth/login | status: 200 | duration: 271.84ms
+2026-05-02 07:09:37 | INFO | Post created | id=1 | author_id=1
+2026-05-02 07:09:37 | INFO | POST /posts/ | status: 200 | duration: 10.49ms
+2026-05-02 07:09:37 | INFO | GET /posts/ | status: 200 | duration: 5.4ms
+2026-05-02 07:09:37 | INFO | POST /auth/register | status: 200 | duration: 269.97ms
+2026-05-02 07:09:37 | INFO | Successful login for user: postauthor2@test.com
+2026-05-02 07:09:37 | INFO | POST /auth/login | status: 200 | duration: 260.91ms
+2026-05-02 07:09:37 | INFO | Post created | id=1 | author_id=1
+2026-05-02 07:09:37 | INFO | POST /posts/ | status: 200 | duration: 10.28ms
+2026-05-02 07:09:37 | INFO | GET /posts/1 | status: 200 | duration: 4.03ms
+2026-05-02 07:09:37 | INFO | POST /posts/ | status: 401 | duration: 2.0ms
+2026-05-02 07:09:38 | INFO | POST /auth/register | status: 200 | duration: 296.24ms
+2026-05-02 07:09:38 | INFO | Successful login for user: postauthor3@test.com
+2026-05-02 07:09:38 | INFO | POST /auth/login | status: 200 | duration: 266.21ms
+2026-05-02 07:09:38 | INFO | Post created | id=1 | author_id=1
+2026-05-02 07:09:38 | INFO | POST /posts/ | status: 200 | duration: 13.97ms
+2026-05-02 07:09:38 | INFO | Post updated | id=1 | user_id=1
+2026-05-02 07:09:38 | INFO | PUT /posts/1 | status: 200 | duration: 11.97ms
+2026-05-02 07:09:38 | INFO | POST /auth/register | status: 200 | duration: 269.77ms
+2026-05-02 07:09:39 | INFO | Successful login for user: postauthor4@test.com
+2026-05-02 07:09:39 | INFO | POST /auth/login | status: 200 | duration: 268.64ms
+2026-05-02 07:09:39 | INFO | Post created | id=1 | author_id=1
+2026-05-02 07:09:39 | INFO | POST /posts/ | status: 200 | duration: 10.95ms
+2026-05-02 07:09:39 | INFO | Post deleted | id=1 | user_id=1
+2026-05-02 07:09:39 | INFO | DELETE /posts/1 | status: 200 | duration: 13.95ms
+2026-05-02 07:09:39 | INFO | POST /auth/register | status: 200 | duration: 261.19ms
+2026-05-02 07:09:39 | INFO | Successful login for user: reader@test.com
+2026-05-02 07:09:39 | INFO | POST /auth/login | status: 200 | duration: 282.19ms
+2026-05-02 07:09:39 | INFO | POST /posts/ | status: 403 | duration: 3.1ms
+2026-05-02 07:09:39 | INFO | POST /auth/register | status: 200 | duration: 286.12ms
+2026-05-02 07:09:40 | INFO | GET /users/ | status: 200 | duration: 3.99ms
+2026-05-02 07:09:40 | INFO | POST /auth/register | status: 200 | duration: 280.47ms
+2026-05-02 07:09:40 | INFO | GET /users/1 | status: 200 | duration: 4.99ms
+2026-05-02 07:09:40 | INFO | GET /users/9999 | status: 404 | duration: 2.98ms
+2026-05-02 07:09:40 | INFO | POST /auth/register | status: 200 | duration: 267.65ms
+2026-05-02 07:09:40 | INFO | POST /auth/register | status: 400 | duration: 2.83ms
+2026-05-02 07:09:41 | INFO | POST /auth/register | status: 200 | duration: 286.61ms
+2026-05-02 07:09:41 | INFO | Successful login for user: test5@test.com
+2026-05-02 07:09:41 | INFO | POST /auth/login | status: 200 | duration: 272.41ms
+2026-05-02 07:09:41 | INFO | PUT /users/1 | status: 200 | duration: 14.95ms
+2026-05-02 07:09:41 | INFO | POST /auth/register | status: 200 | duration: 278.85ms
+2026-05-02 07:09:42 | INFO | Successful login for user: admin@test.com
+2026-05-02 07:09:42 | INFO | POST /auth/login | status: 200 | duration: 274.72ms
+2026-05-02 07:09:42 | INFO | POST /auth/register | status: 200 | duration: 282.27ms
+2026-05-02 07:09:42 | INFO | DELETE /users/2 | status: 200 | duration: 13.06ms
+2026-05-02 07:24:27 | INFO | GET / | status: 404 | duration: 1.0ms
+2026-05-02 07:24:27 | INFO | GET /favicon.ico | status: 404 | duration: 2.0ms
+2026-05-02 07:28:07 | INFO | GET /posts/ | status: 200 | duration: 2045.82ms
+2026-05-02 21:41:39 | INFO | GET / | status: 404 | duration: 0.66ms
+2026-05-02 21:41:40 | INFO | GET /favicon.ico | status: 404 | duration: 0.95ms
+2026-05-02 21:43:06 | WARNING | Failed login attempt for email: login@test.com
+2026-05-02 21:43:06 | INFO | POST /auth/login | status: 401 | duration: 10.99ms
+2026-05-02 21:43:20 | INFO | POST /comments/ | status: 401 | duration: 5.21ms
+2026-05-02 21:44:09 | INFO | GET /posts/ | status: 200 | duration: 47870.57ms
+2026-05-02 21:44:13 | INFO | POST /posts/ | status: 401 | duration: 138.23ms
+2026-05-02 21:44:25 | INFO | GET /users/ | status: 200 | duration: 11.01ms
+2026-05-02 21:44:28 | INFO | GET /users/9999 | status: 404 | duration: 6.59ms
+2026-05-02 21:45:54 | WARNING | Failed login attempt for email: login@test.com
+2026-05-02 21:45:54 | INFO | POST /auth/login | status: 401 | duration: 7.81ms
+2026-05-02 21:46:03 | INFO | POST /comments/ | status: 401 | duration: 7.71ms
+2026-05-02 21:47:01 | INFO | GET /posts/ | status: 200 | duration: 55403.32ms
+2026-05-02 21:47:03 | INFO | POST /posts/ | status: 401 | duration: 3.13ms
+2026-05-02 21:47:11 | INFO | GET /users/ | status: 200 | duration: 5.94ms
+2026-05-02 21:47:14 | INFO | GET /users/9999 | status: 404 | duration: 5.71ms
+2026-05-02 21:50:30 | INFO | POST /auth/register | status: 200 | duration: 421.41ms
+2026-05-02 21:50:31 | INFO | POST /auth/register | status: 200 | duration: 341.31ms
+2026-05-02 21:50:31 | INFO | POST /auth/register | status: 400 | duration: 5.61ms
+2026-05-02 21:50:32 | INFO | POST /auth/register | status: 200 | duration: 516.51ms
+2026-05-02 21:50:32 | INFO | Successful login for user: login@test.com
+2026-05-02 21:50:32 | INFO | POST /auth/login | status: 200 | duration: 385.43ms
+2026-05-02 21:50:32 | WARNING | Failed login attempt for email: login@test.com
+2026-05-02 21:50:32 | INFO | POST /auth/login | status: 401 | duration: 5.85ms
+2026-05-02 21:50:33 | INFO | POST /auth/register | status: 200 | duration: 537.49ms
+2026-05-02 21:50:33 | INFO | Successful login for user: comment1@test.com
+2026-05-02 21:50:33 | INFO | POST /auth/login | status: 200 | duration: 351.15ms
+2026-05-02 21:50:55 | INFO | Post created | id=1 | author_id=1
+2026-05-02 21:50:55 | INFO | POST /posts/ | status: 200 | duration: 22257.36ms
+2026-05-02 21:50:55 | INFO | Comment created | id=1 | user_id=1 | post_id=1
+2026-05-02 21:50:55 | INFO | POST /comments/ | status: 200 | duration: 34.02ms
+2026-05-02 21:50:56 | INFO | POST /auth/register | status: 200 | duration: 431.73ms
+2026-05-02 21:50:56 | INFO | Successful login for user: comment2@test.com
+2026-05-02 21:50:56 | INFO | POST /auth/login | status: 200 | duration: 345.59ms
+2026-05-02 21:51:22 | INFO | Post created | id=1 | author_id=1
+2026-05-02 21:51:22 | INFO | POST /posts/ | status: 200 | duration: 25665.29ms
+2026-05-02 21:51:22 | INFO | Comment created | id=1 | user_id=1 | post_id=1
+2026-05-02 21:51:22 | INFO | POST /comments/ | status: 200 | duration: 15.61ms
+2026-05-02 21:51:22 | INFO | GET /comments/post/1 | status: 200 | duration: 15.49ms
+2026-05-02 21:51:23 | INFO | POST /auth/register | status: 200 | duration: 511.86ms
+2026-05-02 21:51:23 | INFO | Successful login for user: comment3@test.com
+2026-05-02 21:51:23 | INFO | POST /auth/login | status: 200 | duration: 408.98ms
+2026-05-02 21:51:52 | INFO | Post created | id=1 | author_id=1
+2026-05-02 21:51:52 | INFO | POST /posts/ | status: 200 | duration: 28823.63ms
+2026-05-02 21:51:52 | INFO | Comment created | id=1 | user_id=1 | post_id=1
+2026-05-02 21:51:52 | INFO | POST /comments/ | status: 200 | duration: 19.69ms
+2026-05-02 21:51:52 | INFO | Comment created | id=2 | user_id=1 | post_id=1
+2026-05-02 21:51:52 | INFO | POST /comments/ | status: 200 | duration: 19.48ms
+2026-05-02 21:51:52 | INFO | POST /auth/register | status: 200 | duration: 359.36ms
+2026-05-02 21:51:53 | INFO | Successful login for user: comment4@test.com
+2026-05-02 21:51:53 | INFO | POST /auth/login | status: 200 | duration: 410.66ms
+2026-05-02 21:52:18 | INFO | Post created | id=1 | author_id=1
+2026-05-02 21:52:18 | INFO | POST /posts/ | status: 200 | duration: 25030.22ms
+2026-05-02 21:52:18 | INFO | Comment created | id=1 | user_id=1 | post_id=1
+2026-05-02 21:52:18 | INFO | POST /comments/ | status: 200 | duration: 15.67ms
+2026-05-02 21:52:18 | INFO | Comment updated | id=1 | user_id=1
+2026-05-02 21:52:18 | INFO | PUT /comments/1 | status: 200 | duration: 27.75ms
+2026-05-02 21:52:19 | INFO | POST /auth/register | status: 200 | duration: 428.13ms
+2026-05-02 21:52:19 | INFO | Successful login for user: comment5@test.com
+2026-05-02 21:52:19 | INFO | POST /auth/login | status: 200 | duration: 353.72ms
+2026-05-02 21:52:39 | INFO | Post created | id=1 | author_id=1
+2026-05-02 21:52:39 | INFO | POST /posts/ | status: 200 | duration: 19885.65ms
+2026-05-02 21:52:39 | INFO | Comment created | id=1 | user_id=1 | post_id=1
+2026-05-02 21:52:39 | INFO | POST /comments/ | status: 200 | duration: 17.05ms
+2026-05-02 21:52:39 | INFO | Comment deleted | id=1 | user_id=1
+2026-05-02 21:52:39 | INFO | DELETE /comments/1 | status: 200 | duration: 18.07ms
+2026-05-02 21:52:39 | INFO | POST /comments/ | status: 401 | duration: 1.92ms
+2026-05-02 21:52:40 | INFO | POST /auth/register | status: 200 | duration: 422.73ms
+2026-05-02 21:52:40 | INFO | Successful login for user: postauthor@test.com
+2026-05-02 21:52:40 | INFO | POST /auth/login | status: 200 | duration: 345.84ms
+2026-05-02 21:53:06 | INFO | Post created | id=1 | author_id=1
+2026-05-02 21:53:06 | INFO | POST /posts/ | status: 200 | duration: 26021.07ms
+2026-05-02 21:53:54 | INFO | GET /posts/ | status: 200 | duration: 47667.89ms
+2026-05-02 21:53:54 | INFO | POST /auth/register | status: 200 | duration: 497.2ms
+2026-05-02 21:53:55 | INFO | Successful login for user: postauthor2@test.com
+2026-05-02 21:53:55 | INFO | POST /auth/login | status: 200 | duration: 357.21ms
+2026-05-02 21:54:15 | INFO | Post created | id=1 | author_id=1
+2026-05-02 21:54:15 | INFO | POST /posts/ | status: 200 | duration: 20592.55ms
+2026-05-02 21:55:03 | INFO | GET /posts/1 | status: 200 | duration: 47875.12ms
+2026-05-02 21:55:03 | INFO | POST /posts/ | status: 401 | duration: 1.97ms
+2026-05-02 21:55:04 | INFO | POST /auth/register | status: 200 | duration: 402.27ms
+2026-05-02 21:55:04 | INFO | Successful login for user: postauthor3@test.com
+2026-05-02 21:55:04 | INFO | POST /auth/login | status: 200 | duration: 449.92ms
+2026-05-02 21:55:31 | INFO | Post created | id=1 | author_id=1
+2026-05-02 21:55:31 | INFO | POST /posts/ | status: 200 | duration: 26374.31ms
+2026-05-02 21:55:52 | INFO | Post updated | id=1 | user_id=1
+2026-05-02 21:55:52 | INFO | PUT /posts/1 | status: 200 | duration: 20854.37ms
+2026-05-02 21:55:52 | INFO | POST /auth/register | status: 200 | duration: 361.06ms
+2026-05-02 21:55:53 | INFO | Successful login for user: postauthor4@test.com
+2026-05-02 21:55:53 | INFO | POST /auth/login | status: 200 | duration: 433.42ms
+2026-05-02 21:56:11 | INFO | Post created | id=1 | author_id=1
+2026-05-02 21:56:11 | INFO | POST /posts/ | status: 200 | duration: 18522.89ms
+2026-05-02 21:56:35 | INFO | Post deleted | id=1 | user_id=1
+2026-05-02 21:56:35 | INFO | DELETE /posts/1 | status: 200 | duration: 23718.35ms
+2026-05-02 21:56:35 | INFO | POST /auth/register | status: 200 | duration: 390.75ms
+2026-05-02 21:56:36 | INFO | Successful login for user: reader@test.com
+2026-05-02 21:56:36 | INFO | POST /auth/login | status: 200 | duration: 372.46ms
+2026-05-02 21:56:36 | INFO | POST /posts/ | status: 403 | duration: 3.68ms
+2026-05-02 21:56:36 | INFO | POST /auth/register | status: 200 | duration: 417.22ms
+2026-05-02 21:56:37 | INFO | GET /users/ | status: 200 | duration: 6.13ms
+2026-05-02 21:56:37 | INFO | POST /auth/register | status: 200 | duration: 413.33ms
+2026-05-02 21:56:37 | INFO | GET /users/1 | status: 200 | duration: 7.25ms
+2026-05-02 21:56:37 | INFO | GET /users/9999 | status: 404 | duration: 47.15ms
+2026-05-02 21:56:38 | INFO | POST /auth/register | status: 200 | duration: 382.25ms
+2026-05-02 21:56:38 | INFO | POST /auth/register | status: 400 | duration: 4.35ms
+2026-05-02 21:56:38 | INFO | POST /auth/register | status: 200 | duration: 373.81ms
+2026-05-02 21:56:39 | INFO | Successful login for user: test5@test.com
+2026-05-02 21:56:39 | INFO | POST /auth/login | status: 200 | duration: 500.49ms
+2026-05-02 21:56:39 | INFO | PUT /users/1 | status: 200 | duration: 16.95ms
+2026-05-02 21:56:39 | INFO | POST /auth/register | status: 200 | duration: 434.14ms
+2026-05-02 21:56:40 | INFO | Successful login for user: admin@test.com
+2026-05-02 21:56:40 | INFO | POST /auth/login | status: 200 | duration: 513.37ms
+2026-05-02 21:56:40 | INFO | POST /auth/register | status: 200 | duration: 394.82ms
+2026-05-02 21:56:40 | INFO | DELETE /users/2 | status: 200 | duration: 26.0ms
+2026-05-02 22:02:34 | INFO | GET /docs | status: 200 | duration: 7.05ms
+2026-05-02 22:02:35 | INFO | GET /openapi.json | status: 200 | duration: 151.09ms
+2026-05-02 22:07:53 | INFO | GET / | status: 404 | duration: 1.95ms
+2026-05-02 22:08:03 | INFO | GET /docs | status: 200 | duration: 0.52ms
+2026-05-02 22:08:04 | INFO | GET /openapi.json | status: 200 | duration: 73.47ms
+2026-05-02 22:08:27 | INFO | POST /auth/register | status: 200 | duration: 535.36ms
+2026-05-02 22:09:50 | INFO | Successful login for user: author@test.com
+2026-05-02 22:09:50 | INFO | POST /auth/login | status: 200 | duration: 410.49ms
+2026-05-02 22:16:46 | INFO | POST /auth/login | status: 422 | duration: 43.73ms
+2026-05-02 22:19:22 | INFO | Successful login for user: author@test.com
+2026-05-02 22:19:23 | INFO | POST /auth/login | status: 200 | duration: 466.22ms
+2026-05-02 22:20:35 | INFO | POST /posts/ | status: 401 | duration: 36.29ms
+2026-05-02 22:20:58 | INFO | Successful login for user: author@test.com
+2026-05-02 22:20:58 | INFO | POST /auth/login | status: 200 | duration: 432.85ms
+2026-05-02 22:21:21 | INFO | Successful login for user: author@test.com
+2026-05-02 22:21:21 | INFO | POST /auth/login | status: 200 | duration: 339.54ms
+2026-05-02 22:22:02 | INFO | Post created | id=1 | author_id=1
+2026-05-02 22:22:02 | INFO | POST /posts/ | status: 200 | duration: 24251.82ms
+2026-05-02 22:22:36 | INFO | Comment created | id=1 | user_id=1 | post_id=1
+2026-05-02 22:22:36 | INFO | POST /comments/ | status: 200 | duration: 60.44ms
+2026-05-02 22:31:26 | INFO | GET / | status: 404 | duration: 1.13ms
+2026-05-02 22:31:36 | INFO | GET /docs | status: 200 | duration: 0.48ms
+2026-05-02 22:31:36 | INFO | GET /openapi.json | status: 200 | duration: 102.71ms
+2026-05-02 22:32:28 | INFO | Successful login for user: author@test.com
+2026-05-02 22:32:29 | INFO | POST /auth/token | status: 200 | duration: 605.78ms
+2026-05-02 22:34:03 | INFO | Post created | id=2 | author_id=1
+2026-05-02 22:34:03 | INFO | POST /posts/ | status: 200 | duration: 26155.84ms
+2026-05-02 22:36:37 | INFO | GET /users/ | status: 200 | duration: 9.29ms
+2026-05-02 22:37:38 | INFO | GET /posts/ | status: 200 | duration: 45729.36ms
+2026-05-02 22:43:11 | INFO | GET /posts/1 | status: 200 | duration: 43651.29ms
+2026-05-02 22:44:41 | INFO | Post updated | id=1 | user_id=1
+2026-05-02 22:44:41 | INFO | PUT /posts/1 | status: 200 | duration: 27352.27ms
+2026-05-02 22:47:00 | INFO | Post deleted | id=2 | user_id=1
+2026-05-02 22:47:00 | INFO | DELETE /posts/2 | status: 200 | duration: 23901.15ms
+2026-05-02 22:49:48 | INFO | Post created | id=2 | author_id=1
+2026-05-02 22:49:48 | INFO | POST /posts/ | status: 200 | duration: 27329.41ms
+2026-05-02 22:51:14 | INFO | Comment created | id=2 | user_id=1 | post_id=2
+2026-05-02 22:51:14 | INFO | POST /comments/ | status: 200 | duration: 66.88ms
+2026-05-02 22:52:44 | INFO | Comment created | id=3 | user_id=1 | post_id=2
+2026-05-02 22:52:44 | INFO | POST /comments/ | status: 200 | duration: 22.35ms
+2026-05-02 22:54:18 | INFO | GET /comments/post/2 | status: 200 | duration: 50.77ms
+2026-05-02 22:55:41 | INFO | Comment updated | id=2 | user_id=1
+2026-05-02 22:55:41 | INFO | PUT /comments/2 | status: 200 | duration: 36.33ms
+2026-05-02 22:57:20 | INFO | Comment deleted | id=3 | user_id=1
+2026-05-02 22:57:20 | INFO | DELETE /comments/3 | status: 200 | duration: 32.15ms
+2026-05-02 23:02:04 | INFO | GET /users/ | status: 200 | duration: 33.8ms
+2026-05-02 23:03:33 | INFO | POST /auth/register | status: 200 | duration: 462.16ms
+2026-05-02 23:04:58 | INFO | Successful login for user: reader@test.com
+2026-05-02 23:04:58 | INFO | POST /auth/token | status: 200 | duration: 392.44ms
+2026-05-02 23:05:56 | INFO | POST /posts/ | status: 403 | duration: 37.28ms
+2026-05-02 23:08:50 | INFO | GET /users/1 | status: 200 | duration: 14.16ms
+2026-05-02 23:10:04 | INFO | PUT /users/1 | status: 403 | duration: 35.3ms
+2026-05-02 23:12:47 | INFO | POST /auth/register | status: 200 | duration: 506.95ms
+2026-05-02 23:13:38 | INFO | Successful login for user: admin@test.com
+2026-05-02 23:13:38 | INFO | POST /auth/token | status: 200 | duration: 316.46ms
+2026-05-02 23:13:53 | INFO | PUT /users/1 | status: 200 | duration: 69.36ms
+2026-05-02 23:14:45 | INFO | DELETE /users/2 | status: 200 | duration: 68.82ms
+2026-05-02 23:16:44 | INFO | GET /dashboard/stats | status: 200 | duration: 182.63ms
+2026-05-02 23:18:58 | INFO | POST /auth/register | status: 200 | duration: 448.64ms
+2026-05-02 23:18:58 | INFO | POST /auth/register | status: 200 | duration: 528.05ms
+2026-05-02 23:18:58 | INFO | POST /auth/register | status: 400 | duration: 14.45ms
+2026-05-02 23:18:59 | INFO | POST /auth/register | status: 200 | duration: 364.25ms
+2026-05-02 23:18:59 | INFO | Successful login for user: login@test.com
+2026-05-02 23:18:59 | INFO | POST /auth/login | status: 200 | duration: 356.01ms
+2026-05-02 23:19:00 | WARNING | Failed login attempt for email: login@test.com
+2026-05-02 23:19:00 | INFO | POST /auth/login | status: 401 | duration: 87.18ms
+2026-05-02 23:19:03 | INFO | POST /auth/register | status: 200 | duration: 2786.5ms
+2026-05-02 23:19:06 | INFO | Successful login for user: comment1@test.com
+2026-05-02 23:19:06 | INFO | POST /auth/login | status: 200 | duration: 2171.88ms
+2026-05-02 23:19:27 | INFO | Post created | id=1 | author_id=1
+2026-05-02 23:19:27 | INFO | POST /posts/ | status: 200 | duration: 21520.64ms
+2026-05-02 23:19:27 | INFO | Comment created | id=1 | user_id=1 | post_id=1
+2026-05-02 23:19:27 | INFO | POST /comments/ | status: 200 | duration: 218.5ms
+2026-05-02 23:19:29 | INFO | POST /auth/register | status: 200 | duration: 1011.02ms
+2026-05-02 23:19:30 | INFO | Successful login for user: comment2@test.com
+2026-05-02 23:19:30 | INFO | POST /auth/login | status: 200 | duration: 971.41ms
+2026-05-02 23:19:57 | INFO | Post created | id=1 | author_id=1
+2026-05-02 23:19:57 | INFO | POST /posts/ | status: 200 | duration: 26322.7ms
+2026-05-02 23:19:57 | INFO | Comment created | id=1 | user_id=1 | post_id=1
+2026-05-02 23:19:57 | INFO | POST /comments/ | status: 200 | duration: 30.43ms
+2026-05-02 23:19:57 | INFO | GET /comments/post/1 | status: 200 | duration: 23.63ms
+2026-05-02 23:19:58 | INFO | POST /auth/register | status: 200 | duration: 1349.8ms
+2026-05-02 23:19:59 | INFO | Successful login for user: comment3@test.com
+2026-05-02 23:19:59 | INFO | POST /auth/login | status: 200 | duration: 906.46ms
+2026-05-02 23:20:22 | INFO | Post created | id=1 | author_id=1
+2026-05-02 23:20:22 | INFO | POST /posts/ | status: 200 | duration: 22789.51ms
+2026-05-02 23:20:22 | INFO | Comment created | id=1 | user_id=1 | post_id=1
+2026-05-02 23:20:22 | INFO | POST /comments/ | status: 200 | duration: 25.06ms
+2026-05-02 23:20:22 | INFO | Comment created | id=2 | user_id=1 | post_id=1
+2026-05-02 23:20:22 | INFO | POST /comments/ | status: 200 | duration: 21.17ms
+2026-05-02 23:20:23 | INFO | POST /auth/register | status: 200 | duration: 817.79ms
+2026-05-02 23:20:23 | INFO | Successful login for user: comment4@test.com
+2026-05-02 23:20:23 | INFO | POST /auth/login | status: 200 | duration: 481.49ms
+2026-05-02 23:20:50 | INFO | Post created | id=1 | author_id=1
+2026-05-02 23:20:50 | INFO | POST /posts/ | status: 200 | duration: 26186.02ms
+2026-05-02 23:20:50 | INFO | Comment created | id=1 | user_id=1 | post_id=1
+2026-05-02 23:20:50 | INFO | POST /comments/ | status: 200 | duration: 188.41ms
+2026-05-02 23:20:50 | INFO | Comment updated | id=1 | user_id=1
+2026-05-02 23:20:50 | INFO | PUT /comments/1 | status: 200 | duration: 155.54ms
+2026-05-02 23:20:52 | INFO | POST /auth/register | status: 200 | duration: 762.62ms
+2026-05-02 23:20:53 | INFO | Successful login for user: comment5@test.com
+2026-05-02 23:20:53 | INFO | POST /auth/login | status: 200 | duration: 497.8ms
+2026-05-02 23:21:19 | INFO | Post created | id=1 | author_id=1
+2026-05-02 23:21:19 | INFO | POST /posts/ | status: 200 | duration: 25737.82ms
+2026-05-02 23:21:19 | INFO | Comment created | id=1 | user_id=1 | post_id=1
+2026-05-02 23:21:19 | INFO | POST /comments/ | status: 200 | duration: 28.31ms
+2026-05-02 23:21:19 | INFO | Comment deleted | id=1 | user_id=1
+2026-05-02 23:21:19 | INFO | DELETE /comments/1 | status: 200 | duration: 30.67ms
+2026-05-02 23:21:19 | INFO | POST /comments/ | status: 401 | duration: 4.02ms
+2026-05-02 23:21:20 | INFO | POST /auth/register | status: 200 | duration: 594.9ms
+2026-05-02 23:21:20 | INFO | Successful login for user: postauthor@test.com
+2026-05-02 23:21:20 | INFO | POST /auth/login | status: 200 | duration: 429.49ms
+2026-05-02 23:21:47 | INFO | Post created | id=1 | author_id=1
+2026-05-02 23:21:47 | INFO | POST /posts/ | status: 200 | duration: 26755.08ms
+2026-05-02 23:22:31 | INFO | GET /posts/ | status: 200 | duration: 43832.05ms
+2026-05-02 23:22:32 | INFO | POST /auth/register | status: 200 | duration: 524.19ms
+2026-05-02 23:22:32 | INFO | Successful login for user: postauthor2@test.com
+2026-05-02 23:22:32 | INFO | POST /auth/login | status: 200 | duration: 330.68ms
+2026-05-02 23:23:00 | INFO | Post created | id=1 | author_id=1
+2026-05-02 23:23:00 | INFO | POST /posts/ | status: 200 | duration: 27724.93ms
+2026-05-02 23:23:47 | INFO | GET /posts/1 | status: 200 | duration: 46698.13ms
+2026-05-02 23:23:47 | INFO | POST /posts/ | status: 401 | duration: 2.92ms
+2026-05-02 23:23:47 | INFO | POST /auth/register | status: 200 | duration: 461.64ms
+2026-05-02 23:23:48 | INFO | Successful login for user: postauthor3@test.com
+2026-05-02 23:23:48 | INFO | POST /auth/login | status: 200 | duration: 574.33ms
+2026-05-02 23:24:15 | INFO | Post created | id=1 | author_id=1
+2026-05-02 23:24:15 | INFO | POST /posts/ | status: 200 | duration: 26697.83ms
+2026-05-02 23:24:34 | INFO | Post updated | id=1 | user_id=1
+2026-05-02 23:24:34 | INFO | PUT /posts/1 | status: 200 | duration: 18640.64ms
+2026-05-02 23:24:35 | INFO | POST /auth/register | status: 200 | duration: 539.95ms
+2026-05-02 23:24:35 | INFO | Successful login for user: postauthor4@test.com
+2026-05-02 23:24:35 | INFO | POST /auth/login | status: 200 | duration: 561.74ms
+2026-05-02 23:24:59 | INFO | Post created | id=1 | author_id=1
+2026-05-02 23:24:59 | INFO | POST /posts/ | status: 200 | duration: 23972.04ms
+2026-05-02 23:25:24 | INFO | Post deleted | id=1 | user_id=1
+2026-05-02 23:25:24 | INFO | DELETE /posts/1 | status: 200 | duration: 24996.81ms
+2026-05-02 23:25:25 | INFO | POST /auth/register | status: 200 | duration: 443.68ms
+2026-05-02 23:25:25 | INFO | Successful login for user: reader@test.com
+2026-05-02 23:25:25 | INFO | POST /auth/login | status: 200 | duration: 387.9ms
+2026-05-02 23:25:25 | INFO | POST /posts/ | status: 403 | duration: 6.77ms
+2026-05-02 23:25:26 | INFO | POST /auth/register | status: 200 | duration: 433.42ms
+2026-05-02 23:25:26 | INFO | GET /users/ | status: 200 | duration: 10.06ms
+2026-05-02 23:25:27 | INFO | POST /auth/register | status: 200 | duration: 431.5ms
+2026-05-02 23:25:27 | INFO | GET /users/1 | status: 200 | duration: 17.1ms
+2026-05-02 23:25:27 | INFO | GET /users/9999 | status: 404 | duration: 10.27ms
+2026-05-02 23:25:28 | INFO | POST /auth/register | status: 200 | duration: 397.44ms
+2026-05-02 23:25:28 | INFO | POST /auth/register | status: 400 | duration: 6.91ms
+2026-05-02 23:25:29 | INFO | POST /auth/register | status: 200 | duration: 612.06ms
+2026-05-02 23:25:29 | INFO | Successful login for user: test5@test.com
+2026-05-02 23:25:29 | INFO | POST /auth/login | status: 200 | duration: 346.15ms
+2026-05-02 23:25:29 | INFO | PUT /users/1 | status: 200 | duration: 23.74ms
+2026-05-02 23:25:29 | INFO | POST /auth/register | status: 200 | duration: 353.82ms
+2026-05-02 23:25:30 | INFO | Successful login for user: admin@test.com
+2026-05-02 23:25:30 | INFO | POST /auth/login | status: 200 | duration: 476.23ms
+2026-05-02 23:25:30 | INFO | POST /auth/register | status: 200 | duration: 402.94ms
+2026-05-02 23:25:30 | INFO | DELETE /users/2 | status: 200 | duration: 33.97ms
